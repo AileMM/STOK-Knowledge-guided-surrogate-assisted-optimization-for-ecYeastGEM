@@ -1,0 +1,1 @@
+Original historical `results/` (~2.3 GB) were not included in the GitHub-oriented package. Newly executed Bio runs can write their outputs to this folder. Avoid committing transient solver logs, multi-GB simulation results, or personal files. For complete figure reproduction, archive original result files separately with hashes and an external stable reference.
