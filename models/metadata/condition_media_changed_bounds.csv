@@ -1,0 +1,79 @@
+﻿model_file,reaction_index_1based,reaction_id,reaction_name,bound,original_bound,condition_bound
+sourceModel_C_D_fructose_N_L_citrulline.mat,1832,r_1709_REV,D-fructose exchange (reversible),lb,0.0,-1000.0
+sourceModel_C_D_fructose_N_L_citrulline.mat,2705,r_4519_REV,L-citrulline exchange (reversible),lb,0.0,-inf
+sourceModel_C_D_fructose_N_L_citrulline.mat,428,r_1709,D-fructose exchange,ub,inf,0.0
+sourceModel_C_D_fructose_N_L_citrulline.mat,1517,r_4519,L-citrulline exchange,ub,inf,0.0
+sourceModel_C_D_fructose_N_L_citrulline.mat,1794,r_1654_REV,ammonium exchange (reversible),ub,inf,0.0
+sourceModel_C_D_fructose_N_L_citrulline.mat,1832,r_1709_REV,D-fructose exchange (reversible),ub,0.0,1000.0
+sourceModel_C_D_fructose_N_L_citrulline.mat,1837,r_1714_REV,D-glucose exchange (reversible),ub,1000.0,0.0
+sourceModel_C_D_fructose_N_L_citrulline.mat,2705,r_4519_REV,L-citrulline exchange (reversible),ub,0.0,inf
+sourceModel_C_D_galactose_N_cytosine.mat,1828,r_1705_REV,cytosine exchange (reversible),lb,0.0,-inf
+sourceModel_C_D_galactose_N_cytosine.mat,1833,r_1710_REV,D-galactose exchange (reversible),lb,0.0,-1000.0
+sourceModel_C_D_galactose_N_cytosine.mat,424,r_1705,cytosine exchange,ub,inf,0.0
+sourceModel_C_D_galactose_N_cytosine.mat,429,r_1710,D-galactose exchange,ub,inf,0.0
+sourceModel_C_D_galactose_N_cytosine.mat,1794,r_1654_REV,ammonium exchange (reversible),ub,inf,0.0
+sourceModel_C_D_galactose_N_cytosine.mat,1828,r_1705_REV,cytosine exchange (reversible),ub,0.0,inf
+sourceModel_C_D_galactose_N_cytosine.mat,1833,r_1710_REV,D-galactose exchange (reversible),ub,0.0,1000.0
+sourceModel_C_D_galactose_N_cytosine.mat,1837,r_1714_REV,D-glucose exchange (reversible),ub,1000.0,0.0
+sourceModel_C_D_glucose_N_gamma_aminobutyrate.mat,1837,r_1714_REV,D-glucose exchange (reversible),lb,0.0,-1000.0
+sourceModel_C_D_glucose_N_gamma_aminobutyrate.mat,1884,r_1800_REV,gamma-aminobutyrate exchange (reversible),lb,0.0,-inf
+sourceModel_C_D_glucose_N_gamma_aminobutyrate.mat,495,r_1800,gamma-aminobutyrate exchange,ub,inf,0.0
+sourceModel_C_D_glucose_N_gamma_aminobutyrate.mat,1794,r_1654_REV,ammonium exchange (reversible),ub,inf,0.0
+sourceModel_C_D_glucose_N_gamma_aminobutyrate.mat,1884,r_1800_REV,gamma-aminobutyrate exchange (reversible),ub,0.0,inf
+sourceModel_C_D_mannose_N_L_methionine.mat,1838,r_1715_REV,D-mannose exchange (reversible),lb,0.0,-1000.0
+sourceModel_C_D_mannose_N_L_methionine.mat,1969,r_1902_REV,L-methionine exchange (reversible),lb,0.0,-inf
+sourceModel_C_D_mannose_N_L_methionine.mat,434,r_1715,D-mannose exchange,ub,inf,0.0
+sourceModel_C_D_mannose_N_L_methionine.mat,592,r_1902,L-methionine exchange,ub,inf,0.0
+sourceModel_C_D_mannose_N_L_methionine.mat,1794,r_1654_REV,ammonium exchange (reversible),ub,inf,0.0
+sourceModel_C_D_mannose_N_L_methionine.mat,1837,r_1714_REV,D-glucose exchange (reversible),ub,1000.0,0.0
+sourceModel_C_D_mannose_N_L_methionine.mat,1838,r_1715_REV,D-mannose exchange (reversible),ub,0.0,1000.0
+sourceModel_C_D_mannose_N_L_methionine.mat,1969,r_1902_REV,L-methionine exchange (reversible),ub,0.0,inf
+sourceModel_C__R__lactate_N_L_aspartate.mat,1717,r_1546_REV,(R)-lactate exchange (reversible),lb,0.0,-1000.0
+sourceModel_C__R__lactate_N_L_aspartate.mat,1722,r_1551_REV,(S)-lactate exchange (reversible),lb,0.0,-1000.0
+sourceModel_C__R__lactate_N_L_aspartate.mat,1952,r_1881_REV,L-aspartate exchange (reversible),lb,0.0,-inf
+sourceModel_C__R__lactate_N_L_aspartate.mat,297,r_1546,(R)-lactate exchange,ub,inf,0.0
+sourceModel_C__R__lactate_N_L_aspartate.mat,302,r_1551,(S)-lactate exchange,ub,inf,0.0
+sourceModel_C__R__lactate_N_L_aspartate.mat,573,r_1881,L-aspartate exchange,ub,inf,0.0
+sourceModel_C__R__lactate_N_L_aspartate.mat,1717,r_1546_REV,(R)-lactate exchange (reversible),ub,0.0,1000.0
+sourceModel_C__R__lactate_N_L_aspartate.mat,1722,r_1551_REV,(S)-lactate exchange (reversible),ub,0.0,1000.0
+sourceModel_C__R__lactate_N_L_aspartate.mat,1794,r_1654_REV,ammonium exchange (reversible),ub,inf,0.0
+sourceModel_C__R__lactate_N_L_aspartate.mat,1837,r_1714_REV,D-glucose exchange (reversible),ub,1000.0,0.0
+sourceModel_C__R__lactate_N_L_aspartate.mat,1952,r_1881_REV,L-aspartate exchange (reversible),ub,0.0,inf
+sourceModel_C_ethanol_N_L_isoleucine.mat,1864,r_1761_REV,ethanol exchange (reversible),lb,0.0,-1000.0
+sourceModel_C_ethanol_N_L_isoleucine.mat,1965,r_1897_REV,L-isoleucine exchange (reversible),lb,0.0,-inf
+sourceModel_C_ethanol_N_L_isoleucine.mat,473,r_1761,ethanol exchange,ub,inf,0.0
+sourceModel_C_ethanol_N_L_isoleucine.mat,587,r_1897,L-isoleucine exchange,ub,inf,0.0
+sourceModel_C_ethanol_N_L_isoleucine.mat,1794,r_1654_REV,ammonium exchange (reversible),ub,inf,0.0
+sourceModel_C_ethanol_N_L_isoleucine.mat,1837,r_1714_REV,D-glucose exchange (reversible),ub,1000.0,0.0
+sourceModel_C_ethanol_N_L_isoleucine.mat,1864,r_1761_REV,ethanol exchange (reversible),ub,0.0,1000.0
+sourceModel_C_ethanol_N_L_isoleucine.mat,1965,r_1897_REV,L-isoleucine exchange (reversible),ub,0.0,inf
+sourceModel_C_pyruvate_N_L_asparagine.mat,1951,r_1880_REV,L-asparagine exchange (reversible),lb,0.0,-inf
+sourceModel_C_pyruvate_N_L_asparagine.mat,2047,r_2033_REV,pyruvate exchange (reversible),lb,0.0,-1000.0
+sourceModel_C_pyruvate_N_L_asparagine.mat,572,r_1880,L-asparagine exchange,ub,inf,0.0
+sourceModel_C_pyruvate_N_L_asparagine.mat,683,r_2033,pyruvate exchange,ub,inf,0.0
+sourceModel_C_pyruvate_N_L_asparagine.mat,1794,r_1654_REV,ammonium exchange (reversible),ub,inf,0.0
+sourceModel_C_pyruvate_N_L_asparagine.mat,1837,r_1714_REV,D-glucose exchange (reversible),ub,1000.0,0.0
+sourceModel_C_pyruvate_N_L_asparagine.mat,1951,r_1880_REV,L-asparagine exchange (reversible),ub,0.0,inf
+sourceModel_C_pyruvate_N_L_asparagine.mat,2047,r_2033_REV,pyruvate exchange (reversible),ub,0.0,1000.0
+sourceModel_C_raffinose_N_L_alanine.mat,1945,r_1873_REV,L-alanine exchange (reversible),lb,0.0,-inf
+sourceModel_C_raffinose_N_L_alanine.mat,2560,r_4043_REV,raffinose exchange (reversible),lb,0.0,-1000.0
+sourceModel_C_raffinose_N_L_alanine.mat,565,r_1873,L-alanine exchange,ub,inf,0.0
+sourceModel_C_raffinose_N_L_alanine.mat,1220,r_4043,raffinose exchange,ub,inf,0.0
+sourceModel_C_raffinose_N_L_alanine.mat,1794,r_1654_REV,ammonium exchange (reversible),ub,inf,0.0
+sourceModel_C_raffinose_N_L_alanine.mat,1837,r_1714_REV,D-glucose exchange (reversible),ub,1000.0,0.0
+sourceModel_C_raffinose_N_L_alanine.mat,1945,r_1873_REV,L-alanine exchange (reversible),ub,0.0,inf
+sourceModel_C_raffinose_N_L_alanine.mat,2560,r_4043_REV,raffinose exchange (reversible),ub,0.0,1000.0
+sourceModel_C_sucrose_N_ammonium.mat,1794,r_1654_REV,ammonium exchange (reversible),lb,0.0,-inf
+sourceModel_C_sucrose_N_ammonium.mat,2064,r_2058_REV,sucrose exchange (reversible),lb,0.0,-1000.0
+sourceModel_C_sucrose_N_ammonium.mat,383,r_1654,ammonium exchange,ub,inf,0.0
+sourceModel_C_sucrose_N_ammonium.mat,704,r_2058,sucrose exchange,ub,inf,0.0
+sourceModel_C_sucrose_N_ammonium.mat,1837,r_1714_REV,D-glucose exchange (reversible),ub,1000.0,0.0
+sourceModel_C_sucrose_N_ammonium.mat,2064,r_2058_REV,sucrose exchange (reversible),ub,0.0,1000.0
+sourceModel_C_turanose_N_L_glutamate.mat,1958,r_1889_REV,L-glutamate exchange (reversible),lb,0.0,-inf
+sourceModel_C_turanose_N_L_glutamate.mat,2687,r_4501_REV,turanose exchange (reversible),lb,0.0,-1000.0
+sourceModel_C_turanose_N_L_glutamate.mat,580,r_1889,L-glutamate exchange,ub,inf,0.0
+sourceModel_C_turanose_N_L_glutamate.mat,1499,r_4501,turanose exchange,ub,inf,0.0
+sourceModel_C_turanose_N_L_glutamate.mat,1794,r_1654_REV,ammonium exchange (reversible),ub,inf,0.0
+sourceModel_C_turanose_N_L_glutamate.mat,1837,r_1714_REV,D-glucose exchange (reversible),ub,1000.0,0.0
+sourceModel_C_turanose_N_L_glutamate.mat,1958,r_1889_REV,L-glutamate exchange (reversible),ub,0.0,inf
+sourceModel_C_turanose_N_L_glutamate.mat,2687,r_4501_REV,turanose exchange (reversible),ub,0.0,1000.0
