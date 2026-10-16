@@ -1,0 +1,63 @@
+algorithms = {'SGETO'};
+% MTDE_MKTA
+% EMT_PD
+% AMT_NSGA_II
+% SG-ETO
+ % % 
+problem = {...
+%     'CEC17_MTMO1_CI_HS',...
+%     'CEC17_MTMO2_CI_MS',...
+%     'CEC17_MTMO3_CI_LS',...
+%     'CEC17_MTMO4_PI_HS',...
+%     'CEC17_MTMO5_PI_MS','CEC17_MTMO6_PI_LS',...
+%     'CEC17_MTMO7_NI_HS',...
+%     'CEC17_MTMO8_NI_MS',... 
+%     'CEC17_MTMO9_NI_LS'...
+%     'CEC19_MTMO_CPLX1',...
+%     'CEC19_MTMO_CPLX2',...
+%     'CEC19_MTMO_CPLX3',...
+%     'CEC19_MTMO_CPLX4',...
+%     'CEC19_MTMO_CPLX5', ...
+%     'CEC19_MTMO_CPLX6',...
+%     'CEC19_MTMO_CPLX7',...
+%     'CEC19_MTMO_CPLX8',...
+%     'CEC19_MTMO_CPLX9',...
+%     'CEC19_MTMO_CPLX10'...
+% 'WCCI20_MaTMO1'
+% 'MOSCP'
+'SOPM_MTMO1'
+'SOPM_MTMO2'
+    };
+% % % 
+for i = 1:length(problem)   
+    for j = 1:length(algorithms)
+        curr_problem = problem{i};
+        curr_algorithm = algorithms{j};
+        fprintf('Running algorithm: %s on problem: %s\n', curr_algorithm, curr_problem);
+        mto({curr_algorithm},{curr_problem},3,false,25,'True','MTODataSave') %
+    end
+end
+
+
+% mto({'SG-ETO'},{'CEC17_MTMO1_CI_HS'},5,false,50,false,'MTODataSave') %
+% % 50是迭代50次 不是保留五十个结果 Results_Num
+% mto
+% CEC17_MTMO1_CI_HS
+% CEC17_MTMO2_CI_MS
+% CEC17_MTMO3_CI_LS
+% CEC17_MTMO4_PI_HS
+% CEC17_MTMO5_PI_MS
+% CEC17_MTMO6_PI_LS
+% CEC17_MTMO7_NI_HS
+% CEC17_MTMO8_NI_MS
+% CEC17_MTMO9_NI_LS
+% CEC19_MTMO_CPLX1
+% CEC19_MTMO_CPLX2
+% CEC19_MTMO_CPLX3
+% CEC19_MTMO_CPLX4
+% CEC19_MTMO_CPLX5
+% CEC19_MTMO_CPLX6
+% CEC19_MTMO_CPLX7
+% CEC19_MTMO_CPLX8
+% CEC19_MTMO_CPLX9
+% CEC19_MTMO_CPLX10
