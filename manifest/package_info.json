@@ -1,0 +1,29 @@
+{
+  "package": "STOK-ecGEM-github-ready",
+  "original_archive": "MTO-new.7z.001--.033",
+  "archive_parts": 33,
+  "analysis": "Static inspection only; MATLAB execution not performed",
+  "confirmed_corrections": [
+    {
+      "file": "src/bio_objectives/bio1.m",
+      "change": "Re-enabled existing four-line coefficient-update body + loop delimiters (user-confirmed temporary debugging comments)."
+    },
+    {
+      "file": "src/bio_objectives/bio2.m",
+      "change": "Re-enabled existing four-line coefficient-update body + loop delimiters (user-confirmed temporary debugging comments)."
+    },
+    {
+      "file": "src/Bio_test/build_pool_bio.m",
+      "change": "Restored target iteration Bio1–Bio10 (historical debug setting skipped Bio1)."
+    },
+    {
+      "file": "src/Bio_test/build_pool_bio.m",
+      "change": "Assigned paras.fidelity_file before use; avoids missing-field error."
+    },
+    {
+      "file": "src/Bio_test/build_pool_bio.m",
+      "change": "Made result directory platform-portable via fullfile."
+    }
+  ],
+  "third_party_dependency": "MToP v1.5 (external), MATLAB, COBRA Toolbox, Gurobi"
+}
